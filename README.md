@@ -95,5 +95,22 @@ Now, input "whois.arin.net" into the search bar above and press the 'Enter' key.
 </p>
 <img src="https://i.imgur.com/WGNjoAC.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
 
+ <h2>Screenshot 11:</h2>
+<p align="center">
+Proceed to scroll down and examine the available point of contact information, carefully analyzing the obtained results.
+</p>
+<img src="https://i.imgur.com/0QutxLn.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
   
+ <h2>Screenshot 12:</h2>
+<p align="center">
+Enter the following URL 'elliot.org/company-contacts/uber/' into the search bar and press the 'Enter' key.
+</p>
+<img src="https://i.imgur.com/Khv38x7.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
+<ul>
+  <li>
+    <p>
+      <b>Notice the Executive Contacts. Using these names and emails found, the data can be used as an attack vector.  </b>
+    </p>
+  </li>
+</ul>  
 

@@ -58,45 +58,25 @@ Continue scrolling down the page until you locate the section titled "Company In
    
   
 <h2>Screenshot 4:</h2>
-<p align="center"> <br/>
-Extended Output from above 
+<p align="center">
+Step 4: <br/>
+Upon clicking the "See our leadership" link, observe the presence of various Board Directors and members associated with Uber. Additionally, you have the option to select individual members to access their respective contact information. Further down the page, you will find additional details of similar nature.
 </p>
-<img src="https://i.imgur.com/ANfVmP5.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
+<img src="https://i.imgur.com/00PLqmY.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
 <ul>
   <li>
     <p>
-      <b>Multiple svchost.exe processes occurring concurrently with different process IDs, such as 1220, 1004, and others, raise concerns regarding the identification of the legitimate svchost.exe process. This situation highlights a potential threat, as determining the correct svchost.exe process becomes crucial for distinguishing normal system behavior from malicious activity.</b>
-    </p>
-  </li>
-  <li>
-    <p>
-      <b>Additionally, the reader_sl.exe process triggers suspicion based on its associated process ID (PID). Further investigation is warranted to determine the nature of this process and evaluate its potential impact on system security.Identifying and understanding the true nature of svchost.exe processes and scrutinizing the reader_sl.exe process will contribute to a more comprehensive assessment of system integrity and aid in mitigating potential security risks.</b>
-    </p>
-  </li>
-</ul>
- 
+      
+      
 <h2>Screenshot 5:</h2>
 <p align="center">
-Pslist plugin command: "vol.py -f cridex.vmem pslist" <br/>
+Step 5: <br/>
+Using your web browser, access the website 'who.is'. Proceed to enter 'uber.com' into the designated search box, and then press the 'Enter' key to initiate the search.
 </p>
-<img src="https://i.imgur.com/l67RQHr.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
+<img src="https://i.imgur.com/DHwmAUi.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
 <ul>
   <li>
     <p>
-      <b>Analysis: The examination of the memory image has uncovered multiple suspicious processes, raising concerns about the system's integrity and security. One notable finding is the 'Reader_sl.exe' process with a PID of 1640, which exhibits a relationship with 'explorer.exe' processes (PPID: 1484). This association demands further investigation to assess potential unauthorized interactions or suspicious activities. </b>
-    </p>
-  </li>
-  <li>
-    <p>
-      <b>Additionally, the 'Alg.exe' process with a process ID has a 'svchost.exe' process parent ID (PPID) of 652. This relationship raises questions about the purpose and legitimacy of the 'Alg.exe' process, prompting further investigation to assess its impact on system security.Furthermore, the 'wuauclt.exe' process is observed with two different process IDs, indicating potential inconsistencies or duplication. Understanding the reasons behind this discrepancy is crucial to determine if it signifies malicious activity or system misconfiguration.</b>
-    </p>
-  </li>
-  <li>
-    <p>
-      <b>Thorough analysis and scrutiny of these suspicious processes will contribute to a comprehensive assessment of the system's security posture, allowing for effective mitigation of potential risks and ensuring the integrity of the forensic investigation.</b>
-    </p>
-  </li>
-</ul>
   
   
 <h2>Screenshot 6:</h2>

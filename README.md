@@ -1,18 +1,15 @@
 # Passive-Reconnaissance
 
 <h2>Description</h2>
-Performing live system forensics requires precision to avoid losing crucial evidence. In this project, industry-standard forensic recovery tools were utilized to conduct a live system memory analysis. The process involved capturing a live image of the host system's RAM using AccessData FTK imager on a Windows 10 VM, followed by an analysis of the captured memory image using Volatility on a SIFT VM. The investigation focused on the operating system's processes, registries, log files, and HASHs, among other things. Detailed methodology and findings were documented in a Microsoft Word report, including screen captures of each step taken. The report serves as complete forensic lab notes, qualifying the investigator as an expert witness in court if needed.
+Nmap is an invaluable utility employed by malicious actors to identify network hosts and the services associated with them. These adversaries employ this tool to unveil vulnerabilities present on targeted hosts and subsequently exploit them. This reconnaissance process will entail a manual and non-intrusive scan conducted on a Windows 10 Virtual Machine running within the VirtualBox environment, using the Google Chrome browser. The objective is to gather pertinent information about Uber, with the intention of utilizing it for the purpose of penetration testing.
 <br />
 
 
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10 enterprise </b> 
-- <b>SANS forensics SIFT workstation VM</b>
+- <b>Windows 10 VM </b> 
 
-<h2>Tool Used </h2>
-- <b> Volatility 
 <h2>IMPORTANT NOTE!</h2>
 For security reasons, IP addresses and other sensitive information in screenshots have been blurred out. 
 
@@ -21,13 +18,20 @@ For security reasons, IP addresses and other sensitive information in screenshot
 <h2>Screenshot 1:</h2>
 <p align="center">
 Step 1: <br/>
-Investigation File
+Launch your web browser and direct it to Uber's official company homepage, accessible at Uber.com.
 </p>
-<img src="https://i.imgur.com/7o0ME0l.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yo8UzxQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <ul>
   <li>
     <p>
-      <b>Before the lab, the captured memory image was downloaded onto the Windows 10 VM and transferred to the SANS Workstation.</b>
+      <b>Locate the designated user interface element positioned at the upper right-hand corner of the webpage, which consists of two horizontal lines.</b>
+    </p>
+  </li>
+</ul>
+<ul>
+  <li>
+    <p>
+      <b>Execute a click action on the aforementioned user interface element to activate its associated functionality.</b>
     </p>
   </li>
 </ul>
@@ -35,23 +39,12 @@ Investigation File
 <h2>Screenshot 2:</h2>
 <p align="center">
 Step 2: <br/>
-File directory and image info
+Then, navigate to the "Company" section and proceed to select the "About Us" option.
 </p>
-<img src="https://i.imgur.com/YUtx7vx.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
+<img src="https://i.imgur.com/ChD3cZr.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
 <ul>
   <li>
     <p>
-      <b>During this investigation, the memory image file named "cridex.vmem" was analyzed using Volatility 2.6. The purpose of the 'imageinfo' command was to extract essential information about the memory image. The analysis revealed that the image was created in July 2012, providing valuable temporal context for further investigation.</b>
-    </p>
-  </li>
-  <li>
-    <p>
-      <b>Command "vol.py -f cridex.vmem imageinfo" information such as the date and other important data were retrieved from the memory image. This command is a crucial initial step in understanding the captured image, helping the forensic analysis and investigation process.</b>
-    </p>
-  </li>
-</ul> 
-
-
 
 <h2>Screenshot 3:</h2>
 <p align="center">
